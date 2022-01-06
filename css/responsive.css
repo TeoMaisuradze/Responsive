@@ -57,3 +57,37 @@
         padding: 0 30px;
     }
 }
+
+/* images example */
+/* @media (max-width: 617px) {
+    .images-wraper {
+        justify-content: center;
+    }
+} */
+/* @media (max-width: 1090px) {
+    .images-wraper {
+        flex-direction: column;
+        align-items: center;
+    }
+} */
+
+/* % examples */
+@media(max-width: 1070px) {
+    .img-block {
+      width: 48%;  
+    }
+}
+@media(max-width: 480px) {
+    .img-block {
+      width: 100%;  
+    }
+}
+/* header */
+@media (max-width: 768px) {
+    .navigation {
+        display: none;
+    }
+    .burger-icon {
+        display: block;
+    }
+}
